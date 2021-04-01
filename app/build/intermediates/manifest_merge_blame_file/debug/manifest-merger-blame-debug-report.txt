@@ -1,0 +1,751 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arindamv1.Sharesio"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:6:5-76
+11-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:8:5-76
+13-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:11:5-77
+16-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:12:5-75
+17-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:13:5-83
+18-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:13:22-80
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:14:5-78
+19-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:14:22-75
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:15:5-81
+20-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+21-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:16:5-17:47
+21-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:16:22-70
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:18:5-81
+22-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:18:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:19:5-79
+23-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:20:5-66
+24-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:20:22-63
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:22:5-68
+25-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:22:22-65
+26    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+26-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:11:5-65
+26-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:11:22-62
+27    <uses-feature
+27-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:14:5-16:36
+28        android:name="android.hardware.camera"
+28-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:15:9-47
+29        android:required="false" />
+29-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:16:9-33
+30    <uses-feature
+30-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:17:5-19:36
+31        android:name="android.hardware.camera.front"
+31-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:18:9-53
+32        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+32-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:19:9-33
+33    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+34    <uses-feature
+34-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:22:5-24:36
+35        android:name="android.hardware.camera.autofocus"
+35-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:23:9-57
+36        android:required="false" />
+36-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:24:9-33
+37    <uses-feature
+37-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:25:5-27:36
+38        android:name="android.hardware.camera.flash"
+38-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:26:9-53
+39        android:required="false" />
+39-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:27:9-33
+40    <uses-feature
+40-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:28:5-30:36
+41        android:name="android.hardware.screen.landscape"
+41-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:29:9-57
+42        android:required="false" />
+42-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:30:9-33
+43    <uses-feature
+43-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:31:5-33:36
+44        android:name="android.hardware.wifi"
+44-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:32:9-45
+45        android:required="false" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+45-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:33:9-33
+46    <permission
+46-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:7:5-9:47
+47        android:name="com.arindamv1.Sharesio.permission.C2D_MESSAGE"
+47-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:8:9-63
+48        android:protectionLevel="signature" />
+48-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:9:9-44
+49
+50    <uses-permission android:name="com.arindamv1.Sharesio.permission.C2D_MESSAGE" />
+50-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:11:5-79
+50-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:11:22-76
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:17:5-82
+51-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:17:22-79
+52    <!--
+53 Use to restore notifications the user hasn't interacted with.
+54         They could be missed notifications if the user reboots their device if this isn't in place.
+55    -->
+56    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+56-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:29:5-81
+56-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:29:22-78
+57    <!-- Samsung -->
+58    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+58-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:31:5-86
+58-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:31:22-83
+59    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+59-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:32:5-87
+59-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:32:22-84
+60    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+60-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:33:5-81
+60-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:33:22-78
+61    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+61-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:34:5-83
+61-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:34:22-80
+62    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+62-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:35:5-88
+62-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:35:22-85
+63    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+63-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:36:5-92
+63-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:36:22-89
+64    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+64-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:37:5-84
+64-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:37:22-81
+65    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+65-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:38:5-83
+65-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:38:22-80
+66    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+66-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:39:5-91
+66-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:39:22-88
+67    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+67-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:40:5-92
+67-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:40:22-89
+68    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+68-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:41:5-93
+68-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:41:22-90
+69    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+69-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:42:5-73
+69-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:42:22-70
+70    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+70-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:43:5-82
+70-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:43:22-79
+71    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+71-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:44:5-83
+71-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:44:22-80
+72    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+72-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:45:5-88
+72-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:45:22-85
+73    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+73-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:46:5-89
+73-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:46:22-86
+74
+75    <application
+75-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:24:5-218:19
+76        android:name="com.arindamv1.Sharesio.base.App"
+76-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:25:9-55
+77        android:allowBackup="true"
+77-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:26:9-35
+78        android:appComponentFactory="@string/app_name"
+78-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:27:9-55
+79        android:debuggable="true"
+80        android:fullBackupContent="true"
+80-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:28:9-41
+81        android:icon="@mipmap/ic_launcher"
+81-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:29:9-43
+82        android:label="@string/app_name"
+82-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:30:9-41
+83        android:supportsRtl="true"
+83-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:31:9-35
+84        android:testOnly="true"
+85        android:theme="@style/Theme.TBShare" >
+85-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:32:9-45
+86        <meta-data
+86-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:36:9-38:69
+87            android:name="com.google.android.gms.version"
+87-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:37:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:38:13-66
+89        //App ID//
+90        <meta-data
+90-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:41:9-43:52
+91            android:name="com.google.android.gms.ads.APPLICATION_ID"
+91-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:42:13-69
+92            android:value="@string/admob_app_id" />
+92-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:43:13-49
+93
+94        <activity
+94-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:45:9-51:20
+95            android:name="com.arindamv1.Sharesio.activity.MainActivity"
+95-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:46:13-72
+96            android:label="@string/app_name"
+96-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:47:13-45
+97            android:launchMode="singleTask"
+97-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:48:13-44
+98            android:theme="@style/Theme.TBShare.NoActionBar" >
+98-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:49:13-61
+99        </activity>
+100        <activity
+100-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:52:9-68:20
+101            android:name="com.arindamv1.Sharesio.activity.ShareActivity"
+101-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:53:13-73
+102            android:label="@string/app_name"
+102-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:54:13-45
+103            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
+103-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:55:13-77
+104            <intent-filter>
+104-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:56:13-65:29
+105                <action android:name="genonbeta.intent.action.TBShare_SEND_TEXT" />
+105-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:57:17-84
+105-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:57:25-81
+106                <action android:name="android.intent.action.SEND" />
+106-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:58:17-69
+106-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:58:25-66
+107                <action android:name="android.intent.action.SEND_MULTIPLE" />
+107-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:59:17-78
+107-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:59:25-75
+108                <action android:name="genonbeta.intent.action.TBShare_SEND" />
+108-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:60:17-79
+108-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:60:25-76
+109                <action android:name="genonbeta.intent.action.TBShare_SEND_MULTIPLE" />
+109-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:61:17-88
+109-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:61:25-85
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:17-76
+111-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:27-73
+112
+113                <data android:mimeType="*/*" />
+113-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+113-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:23-45
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:70:9-73:80
+117            android:name="com.arindamv1.Sharesio.activity.AddDevicesToTransferActivity"
+117-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:71:13-88
+118            android:label="@string/text_addDevicesToTransfer"
+118-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:72:13-62
+119            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+119-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:73:13-77
+120        <activity
+120-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:75:9-78:80
+121            android:name="com.arindamv1.Sharesio.activity.FileExplorerActivity"
+121-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:76:13-80
+122            android:label="@string/text_fileExplorer"
+122-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:77:13-54
+123            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+123-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:78:13-77
+124        <activity
+124-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:80:9-83:80
+125            android:name="com.arindamv1.Sharesio.activity.ConnectionManagerActivity"
+125-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:81:13-85
+126            android:label="@string/text_connectDevices"
+126-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:82:13-56
+127            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+127-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:83:13-77
+128        <activity
+128-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:85:9-89:80
+129            android:name="com.arindamv1.Sharesio.activity.ContentSharingActivity"
+129-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:86:13-82
+130            android:label="@string/text_send"
+130-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:87:13-46
+131            android:launchMode="singleTask"
+131-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:88:13-44
+132            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+132-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:89:13-77
+133        <activity
+133-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:91:9-93:57
+134            android:name="com.arindamv1.Sharesio.activity.FilePickerActivity"
+134-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:92:13-78
+135            android:label="@string/text_fileExplorer" />
+135-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:93:13-54
+136        <activity
+136-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:95:9-113:20
+137            android:name="com.arindamv1.Sharesio.activity.ViewTransferActivity"
+137-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:96:13-80
+138            android:label="@string/text_transactionViewer"
+138-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:97:13-59
+139            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
+139-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:98:13-77
+140            <intent-filter>
+140-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:99:13-112:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:100:17-69
+141-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:100:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:17-76
+143-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:103:17-78
+144-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:103:27-75
+145
+146                <data android:scheme="file" />
+146-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+146-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:105:23-44
+147                <data android:scheme="content" />
+147-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+147-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:105:23-44
+148                <data android:mimeType="*/*" />
+148-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+148-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:23-45
+149                <data android:host="*" />
+149-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+149-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:109:23-39
+150                <data android:pathPattern=".*\\.tshare" />
+150-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+150-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:110:23-56
+151                <data android:pathPattern=".*\\..*\\.tshare" />
+151-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:64:17-48
+151-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:110:23-56
+152            </intent-filter>
+153        </activity>
+154        <activity
+154-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:115:9-118:63
+155            android:name="com.arindamv1.Sharesio.activity.ManageDevicesActivity"
+155-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:116:13-81
+156            android:label="@string/text_manageDevices"
+156-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:117:13-55
+157            android:theme="@style/Theme.TBShare.NoActionBar" />
+157-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:118:13-61
+158        <activity
+158-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:120:9-122:51
+159            android:name="com.arindamv1.Sharesio.activity.SearchActivity"
+159-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:121:13-74
+160            android:label="@string/butn_search" />
+160-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:122:13-48
+161        <activity
+161-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:124:9-126:55
+162            android:name="com.arindamv1.Sharesio.activity.TextEditorActivity"
+162-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:125:13-78
+163            android:label="@string/text_textEditor" />
+163-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:126:13-52
+164        <activity
+164-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:128:9-135:20
+165            android:name="com.arindamv1.Sharesio.activity.ChangeStoragePathActivity"
+165-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:129:13-85
+166            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+166-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:130:13-63
+167            <intent-filter>
+167-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:131:13-134:29
+168                <action android:name="com.genonbeta.intent.action.UPDATE_STORAGE_PATH" />
+168-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:132:17-90
+168-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:132:25-87
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:17-76
+170-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:27-73
+171            </intent-filter>
+172        </activity>
+173        <activity
+173-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:137:9-140:75
+174            android:name="com.arindamv1.Sharesio.activity.BarcodeScannerActivity"
+174-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:138:13-82
+175            android:label="@string/text_scanQrCode"
+175-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:139:13-52
+176            android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
+176-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:140:13-72
+177        <activity
+177-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:142:9-152:20
+178            android:name="com.arindamv1.Sharesio.activity.SplashActivity"
+178-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:143:13-74
+179            android:label="@string/app_name"
+179-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:144:13-45
+180            android:theme="@style/Theme.TBShare.NoActionBar" >
+180-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:145:13-61
+181            <intent-filter>
+181-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:147:13-150:29
+182                <action android:name="android.intent.action.MAIN" />
+182-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:148:17-69
+182-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:148:25-66
+183
+184                <category android:name="android.intent.category.LAUNCHER" />
+184-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:149:17-77
+184-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:149:27-74
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:153:9-155:63
+188            android:name="com.arindamv1.Sharesio.activity.WebShareActivity"
+188-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:153:19-82
+189            android:label="Web Share"
+189-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:154:13-38
+190            android:theme="@style/Theme.TBShare.NoActionBar" />
+190-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:155:13-61
+191
+192        <provider
+193            android:name="androidx.core.content.FileProvider"
+193-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:158:13-62
+194            android:authorities="com.arindamv1.Sharesio.fileprovider"
+194-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:159:13-64
+195            android:exported="false"
+195-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:160:13-37
+196            android:grantUriPermissions="true" >
+196-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:161:13-47
+197            <meta-data
+197-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:162:13-164:58
+198                android:name="android.support.FILE_PROVIDER_PATHS"
+198-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:163:17-67
+199                android:resource="@xml/provider_paths" />
+199-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:164:17-55
+200        </provider>
+201
+202        <receiver
+202-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:167:9-176:20
+203            android:name="com.arindamv1.Sharesio.receiver.NetworkStatusReceiver"
+203-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:168:13-81
+204            android:process=":transfer" >
+204-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:169:13-40
+205            <intent-filter>
+205-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:170:13-175:29
+206                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+206-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:171:17-78
+206-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:171:25-75
+207                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+207-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:172:17-81
+207-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:172:25-78
+208                <action android:name="android.net.wifi.STATE_CHANGE" />
+208-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:173:17-72
+208-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:173:25-69
+209                <action android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE" />
+209-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:174:17-87
+209-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:174:25-84
+210            </intent-filter>
+211        </receiver>
+212        <receiver
+212-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:177:9-179:43
+213            android:name="com.arindamv1.Sharesio.receiver.DialogEventReceiver"
+213-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:178:13-79
+214            android:process=":transfer" />
+214-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:179:13-40
+215
+216        <service
+216-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:181:9-185:43
+217            android:name="com.arindamv1.Sharesio.service.CommunicationService"
+217-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:182:13-79
+218            android:enabled="true"
+218-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:183:13-35
+219            android:label="@string/text_communicationService"
+219-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:184:13-62
+220            android:process=":transfer" />
+220-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:185:13-40
+221        <service
+221-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:187:9-194:19
+222            android:name="com.arindamv1.Sharesio.service.DeviceChooserService"
+222-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:188:13-79
+223            android:label="@string/text_chooserTargetService"
+223-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:189:13-62
+224            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+224-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:190:13-80
+225            <intent-filter>
+225-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:191:13-193:29
+226                <action android:name="android.service.chooser.ChooserTargetService" />
+226-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:192:17-87
+226-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:192:25-84
+227            </intent-filter>
+228        </service>
+229        <service android:name="com.arindamv1.Sharesio.service.DeviceScannerService" >
+229-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:195:9-202:19
+229-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:195:18-84
+230            <intent-filter>
+230-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:196:13-201:29
+231                <action android:name="genonbeta.intent.action.SCAN_DEVICES" />
+231-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:197:17-79
+231-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:197:25-76
+232                <action android:name="genonbeta.intent.action.ADD_IP" />
+232-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:198:17-73
+232-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:198:25-70
+233
+234                <category android:name="android.intent.category.DEFAULT" />
+234-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:17-76
+234-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:63:27-73
+235            </intent-filter>
+236        </service>
+237        <service
+237-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:204:9-206:58
+238            android:name="com.arindamv1.Sharesio.service.WorkerService"
+238-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:205:13-72
+239            android:label="@string/text_workerService" />
+239-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:206:13-55
+240        <service
+240-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:208:9-217:19
+241            android:name="com.arindamv1.Sharesio.service.CommunicationToggleTile"
+241-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:209:13-82
+242            android:icon="@mipmap/ic_launcher"
+242-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:210:13-47
+243            android:label="@string/text_shareFiles"
+243-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:211:13-52
+244            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+244-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:212:13-77
+245            android:process=":transfer" >
+245-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:213:13-40
+246            <intent-filter>
+246-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:214:13-216:29
+247                <action android:name="android.service.quicksettings.action.QS_TILE" />
+247-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:215:17-87
+247-->/Users/arindam/AndroidStudioProjects/Turbo Share ( Admob )/app/src/main/AndroidManifest.xml:215:25-84
+248            </intent-filter>
+249        </service>
+250
+251        <activity
+251-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:36:9-42:63
+252            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+252-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:37:13-74
+253            android:clearTaskOnLaunch="true"
+253-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:38:13-45
+254            android:screenOrientation="sensorLandscape"
+254-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:39:13-56
+255            android:stateNotNeeded="true"
+255-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:40:13-42
+256            android:theme="@style/zxing_CaptureTheme"
+256-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:41:13-54
+257            android:windowSoftInputMode="stateAlwaysHidden" />
+257-->[com.velitasali.tools.android:zxing:3.6.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/d2a6884c4359e1c7660929739673b7cf/jetified-zxing-3.6.3/AndroidManifest.xml:42:13-60
+258
+259        <meta-data
+259-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:49:9-51:51
+260            android:name="onesignal_app_id"
+260-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:50:13-44
+261            android:value="Your OneSignal ID" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+261-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:51:13-48
+262        <meta-data
+262-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:53:9-55:70
+263            android:name="onesignal_google_project_number"
+263-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:54:13-59
+264            android:value="str:REMOTE" />
+264-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:55:13-67
+265
+266        <receiver
+266-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:57:9-67:20
+267            android:name="com.onesignal.GcmBroadcastReceiver"
+267-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:58:13-62
+268            android:permission="com.google.android.c2dm.permission.SEND" >
+268-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:59:13-73
+269
+270            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+271            <intent-filter android:priority="999" >
+271-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:62:13-66:29
+271-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:62:28-50
+272                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+272-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:63:17-81
+272-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:63:25-78
+273
+274                <category android:name="com.arindamv1.Sharesio" />
+274-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:65:17-61
+274-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:65:27-58
+275            </intent-filter>
+276        </receiver>
+277        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+277-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:68:9-77
+277-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:68:19-74
+278
+279        <service android:name="com.onesignal.GcmIntentService" />
+279-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:70:9-66
+279-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:70:18-63
+280        <service
+280-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:71:9-73:72
+281            android:name="com.onesignal.GcmIntentJobService"
+281-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:72:13-61
+282            android:permission="android.permission.BIND_JOB_SERVICE" />
+282-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:73:13-69
+283        <service
+283-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:74:9-76:72
+284            android:name="com.onesignal.RestoreJobService"
+284-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:75:13-59
+285            android:permission="android.permission.BIND_JOB_SERVICE" />
+285-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:76:13-69
+286        <service
+286-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:77:9-79:72
+287            android:name="com.onesignal.RestoreKickoffJobService"
+287-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:78:13-66
+288            android:permission="android.permission.BIND_JOB_SERVICE" />
+288-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:79:13-69
+289        <service
+289-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:80:9-82:43
+290            android:name="com.onesignal.SyncService"
+290-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:81:13-53
+291            android:stopWithTask="true" />
+291-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:82:13-40
+292        <service
+292-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:83:9-85:72
+293            android:name="com.onesignal.SyncJobService"
+293-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:84:13-56
+294            android:permission="android.permission.BIND_JOB_SERVICE" />
+294-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:85:13-69
+295
+296        <activity
+296-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:87:9-89:75
+297            android:name="com.onesignal.PermissionsActivity"
+297-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:88:13-61
+298            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+298-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:89:13-72
+299
+300        <service android:name="com.onesignal.NotificationRestoreService" />
+300-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:91:9-76
+300-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:91:18-73
+301
+302        <receiver android:name="com.onesignal.BootUpReceiver" >
+302-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:93:9-98:20
+302-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:93:19-62
+303            <intent-filter>
+303-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:94:13-97:29
+304                <action android:name="android.intent.action.BOOT_COMPLETED" />
+304-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:95:17-79
+304-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:95:25-76
+305                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+305-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:96:17-82
+305-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:96:25-79
+306            </intent-filter>
+307        </receiver>
+308        <receiver android:name="com.onesignal.UpgradeReceiver" >
+308-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:99:9-103:20
+308-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:99:19-63
+309            <intent-filter>
+309-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:100:13-102:29
+310                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+310-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:101:17-84
+310-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:101:25-81
+311            </intent-filter>
+312        </receiver>
+313
+314        <meta-data
+314-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/8fe9ce1e7e1513ce68cafeae795d5279/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+315            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+315-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/8fe9ce1e7e1513ce68cafeae795d5279/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+316            android:value="GlideModule" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+316-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/8fe9ce1e7e1513ce68cafeae795d5279/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+317        <activity
+317-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:29:9-33:64
+318            android:name="com.google.android.gms.ads.AdActivity"
+318-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:30:13-65
+319            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+319-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:31:13-122
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:32:13-37
+321            android:theme="@android:style/Theme.Translucent" />
+321-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:33:13-61
+322
+323        <provider
+323-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:35:9-39:39
+324            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+324-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:36:13-76
+325            android:authorities="com.arindamv1.Sharesio.mobileadsinitprovider"
+325-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:37:13-73
+326            android:exported="false"
+326-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:38:13-37
+327            android:initOrder="100" />
+327-->[com.google.android.gms:play-services-ads-lite:19.2.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/b03714aa196aefb07f299f2ae5c15e4e/jetified-play-services-ads-lite-19.2.0/AndroidManifest.xml:39:13-36
+328        <!--
+329             FirebaseMessagingService performs security checks at runtime,
+330             no need for explicit permissions despite exported="true"
+331        -->
+332        <service
+332-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:28:9-34:19
+333            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+333-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:29:13-82
+334            android:exported="true" >
+334-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:30:13-36
+335            <intent-filter android:priority="-500" >
+335-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:13-33:29
+335-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:28-51
+336                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+336-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:17-78
+336-->[com.google.firebase:firebase-messaging:17.3.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/2397c45797ffde03ad06bd594568beab/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:25-75
+337            </intent-filter>
+338        </service>
+339        <service
+339-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+340            android:name="com.google.firebase.components.ComponentDiscoveryService"
+340-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:30:13-84
+341            android:exported="false" >
+341-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+342            <meta-data
+342-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+343                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+343-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+344                android:value="com.google.firebase.components.ComponentRegistrar" />
+344-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+345        </service>
+346
+347        <receiver
+347-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+348            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+348-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+349            android:exported="true"
+349-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+350            android:permission="com.google.android.c2dm.permission.SEND" >
+350-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+351            <intent-filter>
+351-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+352                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+352-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:63:17-81
+352-->[com.onesignal:OneSignal:3.14.1] /Users/arindam/.gradle/caches/transforms-2/files-2.1/151a26752b299baa8d4920859f33129f/jetified-OneSignal-3.14.1/AndroidManifest.xml:63:25-78
+353            </intent-filter>
+354        </receiver>
+355        <!--
+356             FirebaseInstanceIdService performs security checks at runtime,
+357             no need for explicit permissions despite exported="true"
+358        -->
+359        <service
+359-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+360            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+360-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+361            android:exported="true" >
+361-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+362            <intent-filter android:priority="-500" >
+362-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+362-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+363                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+363-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+363-->[com.google.firebase:firebase-iid:17.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/db0a19f35f94f53b044128b803adcce3/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+364            </intent-filter>
+365        </service>
+366
+367        <activity
+367-->[com.google.android.gms:play-services-base:17.0.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/87bf36d12a70bc23b0122f517612edfa/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+368            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+368-->[com.google.android.gms:play-services-base:17.0.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/87bf36d12a70bc23b0122f517612edfa/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+369            android:exported="false"
+369-->[com.google.android.gms:play-services-base:17.0.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/87bf36d12a70bc23b0122f517612edfa/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+370            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+370-->[com.google.android.gms:play-services-base:17.0.0] /Users/arindam/.gradle/caches/transforms-2/files-2.1/87bf36d12a70bc23b0122f517612edfa/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+371
+372        <provider
+372-->[com.google.firebase:firebase-common:16.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/afe2a0165927e20acd3f74c41a8d29e3/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+373            android:name="com.google.firebase.provider.FirebaseInitProvider"
+373-->[com.google.firebase:firebase-common:16.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/afe2a0165927e20acd3f74c41a8d29e3/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+374            android:authorities="com.arindamv1.Sharesio.firebaseinitprovider"
+374-->[com.google.firebase:firebase-common:16.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/afe2a0165927e20acd3f74c41a8d29e3/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+375            android:exported="false"
+375-->[com.google.firebase:firebase-common:16.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/afe2a0165927e20acd3f74c41a8d29e3/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+376            android:initOrder="100" />
+376-->[com.google.firebase:firebase-common:16.0.3] /Users/arindam/.gradle/caches/transforms-2/files-2.1/afe2a0165927e20acd3f74c41a8d29e3/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+377    </application>
+378
+379</manifest>
